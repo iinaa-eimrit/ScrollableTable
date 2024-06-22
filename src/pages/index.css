@@ -1,0 +1,58 @@
+.table-container {
+  position: relative;
+  overflow-x: auto;
+}
+
+.table-container table {
+  min-width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table-container th.sticky-col,
+.table-container td.sticky-col {
+  position: sticky;
+  background: white;
+  z-index: 1;
+}
+
+.table-container th.sticky-col.left-0,
+.table-container td.sticky-col.left-0 {
+  left: 0;
+}
+
+.table-container th.sticky-col.left-1,
+.table-container td.sticky-col.left-1 {
+  left: 50px;
+}
+
+.table-container th.sticky-col.left-2,
+.table-container td.sticky-col.left-2 {
+  left: 100px;
+}
+
+.table-container th.sticky-col.left-3,
+.table-container td.sticky-col.left-3 {
+  left: 150px;
+}
+
+.table-container th.sticky-col.right-0,
+.table-container td.sticky-col.right-0 {
+  right: 0;
+}
+
+.table-container th.sticky-col.right-1,
+.table-container td.sticky-col.right-1 {
+  right: 50px;
+}
+
+.scrollable-col {
+  min-width: 150px;
+}
